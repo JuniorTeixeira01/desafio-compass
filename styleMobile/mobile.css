@@ -391,23 +391,24 @@ main{
     text-align: center;
     line-height: 20px;
 }
-.table-corpo thead tr th{
-    text-align: start;
-    line-height: 20px;
-}
-.table-corpo thead, tbody, tr{
+.table-corpo tr th{
     width: 100%;
+
 }
-.table-corpo tr td{
+.table-corpo tr{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+}
+.table-corpo tr td {
     width: 100%;
-}
-.table-corpo tbody tr td{
-    text-align: start;
-    line-height: 20px;
+    text-align: center;
 }
 .container-footer{
     gap: 20px;
     flex-direction: column;
+    text-align: center;
 }
 .container-footer figure{
     justify-content: center;
