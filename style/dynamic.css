@@ -1,0 +1,196 @@
+.frame{
+    width: 15px;
+    background-color: #000000;
+}
+.imagens-seletores{
+    width: 20px;
+    border-radius: 50%;
+}
+.container-creation{
+    width: 800px;
+    height: 800px;
+    background-color: #FFFFFF;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.style-login{
+    width: 500px;
+    height: 300px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 10px gray;
+    top: 50px;
+    left: 450px;
+}
+.style-login-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.style-login label{
+    text-align: center;
+
+}
+.style-login input{
+    padding-left: 20px;
+    width: 80%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(235, 232, 232);
+}
+.login-buttom{
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.remover-display{
+    display: none;
+}
+.carrinho-compras{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 7px 10px gray;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    left: 500px;
+}
+.container-compras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.container-compras > button{
+    width: 50%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.container-soma{
+    width: 100%;
+    display: flex;
+}
+.carrinho-produto{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carrinho-quantidade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+.carrinho-quantidade > input{
+    width: 30%;
+    height: 20px;
+    background-color: rgb(250, 244, 244);
+    border-radius: 10px;
+}
+.carrinho-quantidade > button{
+    width: 50px;
+    height: 20px;
+    color: rgb(5, 5, 54);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.produto-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    gap: 1px;
+}
+.produto-card h3{
+    width: 100%;
+    font-size: 13px;
+}
+.contain-produto-avaliacao{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.contain-produto-avaliacao > img{
+    width: 55px;
+}
+.contain-produto-avaliacao span{
+    font-size: 12px;
+}
+.produto-img{
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+}
+.produto-preco p{
+    font-size: 16px;
+    color: #000000;
+}
+
+.container-shop{
+    border-radius: 30px;
+    width: 100%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+}
+.contain-shop{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.produto-shop{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.produto-shop h3{
+    font-size: 15px;
+}
+.contain-shop-img{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 30px;
+}
+.shop-img{
+    width: 70%;
+    border-radius: 30px;
+}
+.contain-shop-avaliacao{
+    display: flex;
+    gap: 5px;
+}
+.contain-shop-avaliacao > img{
+    width: 60px;
+}
+

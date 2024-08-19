@@ -1,0 +1,417 @@
+@media (min-width: 390px) and (max-width: 430px) {
+    .container-desconto {
+        font-size: 12px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .container-desconto>a {
+        text-decoration: none;
+    }
+
+    .desconto-button {
+        top: 12px;
+        right: 17px;
+        width: 10px;
+    }
+
+    /************************************************** container seletores*****************************/
+
+    .container-seletores {
+        height: 63px;
+    }
+
+    .seletores-container-title {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .seletores-title {
+        display: flex;
+        gap: 20px;
+    }
+
+    .seletores-title>img {
+        display: unset;
+    }
+
+    .seletores-title h1 {
+        font-weight: 700;
+        font-size: 25.2px;
+    }
+
+    .seletores-container-title ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container-seletores div ul li:nth-child(1),
+    li:nth-child(2),
+    li:nth-child(3),
+    li:nth-child(4) {
+        display: none;
+    }
+
+    .container-seletores div ul li img {
+        width: 24px;
+    }
+    .seletores-input {
+        width: 0;
+        height: 0;
+    }
+
+    .seletores-input .imagens-seletores {
+        width: 30px;
+        margin-left: -15px;
+    }
+
+    .seletores-input input {
+        display: none;
+    }
+
+    /************************************************* Termino da seção seletores ***************************/
+
+    /*Inicio do  header*/
+    /*************************************************** Container Banner ***********************************/
+
+    .container-banner {
+        height: 800px;
+        background-image: url(0);
+        background-position: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .style-login{
+        left: 20px;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .style-login form{
+        gap: 10px;
+    }
+    .carrinho-compras{
+        width: 90%;
+        left: 25px;
+    }
+
+    .container-banner-info{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 30px 0 0 20px;
+        gap: 40px;
+    }
+
+    .container-banner-info>div {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .container-banner-info>div>h2 {
+        font-size: 36px;
+        font-weight: 700;
+        width: 315px;
+    }
+
+    .container-banner-info>div p {
+        width: 358px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #646464;
+    }
+
+    .container-banner-info>div button {
+        width: 97%;
+        height: 52px;
+        padding: 16px 54px 16px 54px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .container-banner-info table {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-banner-info tr {
+        width: 278px;
+        height: 74px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .container-banner-info tr>td {
+        font-size: 12px;
+        color: #646464;
+        width: 117px;
+    }
+
+    .container-banner-info tr td em {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .container-banner-imagem {
+        width: 100%;
+        height: 600px;
+        background-image: url("../assets/banner.png");
+        background-size: cover;
+        background-position: right;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .container-banner .estrelas {
+        position: absolute;
+    }
+
+    .container-banner .maior {
+        width: 76px;
+        top: 30px;
+        left: 290px;
+    }
+
+    .container-banner .menor {
+        width: 44px;
+        top: 105px;
+        left: 30px;
+    }
+
+    .estrelas:hover{
+        transition: 5s;
+        transform: rotate(780deg);
+    }
+
+    .contain-shop{
+        height: 200px;
+    }
+
+    .produto-shop h3{
+        font-size: 9px;
+    }
+    .contain-shop-avaliacao > img{
+        width: 50px;
+    }
+    .contain-shop-avaliacao > span{
+        font-size: 10px;
+    }
+    
+/******************************************* TERMINO DO CONTAINER BANNER *******************************/
+
+/******************************************* INÍCIO DO CONTAINER MARCAS *******************************/
+
+.container-marcas{
+    height: 146px;
+}
+.container-marcas-lista{
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px 20px;
+}
+.container-marcas img{
+    width: 116.74px;
+}
+.container-marcas div img:nth-child(2){
+    width: 70px;
+}
+
+/******************************************* FIM DO CONTAINER MARCAS *******************************/
+
+/******************************************* INÍCIO CONTAINER VITRINE ******************************/
+
+main{
+    height: 100%;
+}
+.container-first-vitrine{
+    height: 100%;
+}
+.container-first-vitrine > h2{
+    font-size: 32px;
+}
+.vitrine-looks{
+    height: 100%;
+    flex-direction: column;
+    gap: 70px;
+}
+.vitrine-cards{
+    width: 198px;
+    height: 280px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.vitrine-looks-img{
+    width: 100%;
+    height: 240px;
+    border-radius: 30px;
+ }
+.vitrine-cards h3{
+    font-size: 16px;
+}
+.vitrine-value em{
+    font-size: 20px;
+}
+.container-last-vitrine{
+    height: 100%;
+}
+.container-last-vitrine > h2{
+    font-size: 32px;
+}
+.vitrine-cards:hover{
+    transition: 4s;
+    scale: 1.1;
+}
+.container-first-vitrine button{
+    width: 190px;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 10px 54px 10px 54px;
+}
+.container-last-vitrine button{
+    width: 190px;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 10px 54px 10px 54px;
+}
+
+
+
+/**********************************************CONTAINER STILUS*****************************************/
+
+.container-stilus{
+    width: 88%;
+    height: 1200px;
+}
+.container-stilus h3{
+    width: 246px;
+    font-size: 32px;
+    text-align: center;
+}
+.card-stilus{
+    width: 358PX;
+    height: 975px;
+}
+.card-stilus div{
+    width: 310px;
+    height: 190px;
+}
+.card-stilus div:nth-child(2){
+    flex-grow: 0;
+}
+.card-stilus div:nth-child(3){
+    flex-grow: 0;
+}
+
+
+/**********************************************CONTAINER STILUS*****************************************/
+
+/**********************************************CONTAINER COMENTÁRIOS************************************/
+
+.container-comentarios h3{
+    padding: 80px 0 0 30px;
+    font-size: 32px;
+}
+.pai-carrossel button{
+    width: 30px;
+    height: 186px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.container-comentarios-card{
+    display: flex;
+    box-sizing: border-box;
+    overflow-x: auto;
+    width: 100%;
+    height: 300px;
+}
+.container-comentarios-card{
+    width: 90%;
+}
+.item{
+    width: 340px;
+    height: 186px;
+    padding: 14px 16px 14px 16px;
+}
+.container-inter-carrossel{
+    display: flex;
+    gap: 25px;
+    margin: 0 auto;
+}
+.card-interno{
+    width: 300px;
+    height: 161.58px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/*******************************************CRIAÇÃO DO FOOTER ************************************/
+
+.container-final{
+    height: 100%;
+}
+.pai-form form{
+    height: 293px;
+    display: flex;
+    flex-direction: column;
+}
+.pai-form form h3{
+    width: 297px;
+    height: 105px;
+    font-size: 32px;
+}
+.pai-form form fieldset div, .final-button{
+    width: 311px;
+    height: 42px;
+    font-size: 14px;
+}
+.container-table{
+    width: 100%;
+    height: 100%;
+    margin: 250px 0 40px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.table-corpo{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+}
+.table-corpo thead tr th{
+    text-align: start;
+    line-height: 20px;
+}
+.table-corpo thead, tbody, tr{
+    width: 100%;
+}
+.table-corpo tr td{
+    width: 100%;
+}
+.table-corpo tbody tr td{
+    text-align: start;
+    line-height: 20px;
+}
+.container-footer{
+    gap: 20px;
+    flex-direction: column;
+}
+.container-footer figure{
+    justify-content: center;
+}
+
+}
+
