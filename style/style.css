@@ -17,6 +17,9 @@
     position: relative;
     gap: 5px;
 }
+.container-desconto p{
+    font-size: 10px;
+}
 .container-desconto > a{
     color: #ffffff;
 }
